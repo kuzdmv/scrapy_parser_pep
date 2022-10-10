@@ -1,6 +1,14 @@
 # Проект парсинга scrapy_parser_pep
 
-### Основная команда:
+### Команды для развертывания:
+```
+python -m venv venv
+source venv/Scripts/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### Команда для парсига:
 ```
 scrapy crawl pep
 ```
